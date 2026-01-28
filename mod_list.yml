@@ -75,3 +75,4 @@ mods:
   worldedit-cui: '*'
   yaca: '*'
   yacl: '*'
+disable_mods: {}
