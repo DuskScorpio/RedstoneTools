@@ -15,6 +15,7 @@
 1. Create folders for each game version in project root
 2. Run `../tools/packwiz init` within each version folder
 3. Run `install.py` from `script/`
+4. Removing mods from `mod_list.yml` will remove the mods from the version folders when `install.py` runs
 
 ## Testing modpack
 
