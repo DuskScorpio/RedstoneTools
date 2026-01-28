@@ -1,5 +1,6 @@
 from pathlib import Path
 from ruamel.yaml import YAML
+from ruamel.yaml.comments import CommentedMap
 
 import re
 
@@ -16,16 +17,21 @@ def main():
     yaml = YAML()
     with open(FILE_PATH, "r", encoding="utf-8") as f:
         data = yaml.load(f)
+        for i in data:
+            if data[i] is None:
+                data[i] = {}
 
-    try:
-        mods = dict(data["mods"]).copy()
-    except TypeError:
-        data = {"mods": {}}
-        mods = dict(data["mods"]).copy()
+    mods = data["mods"]
+    disable_mods = data["disable_mods"]
+    new_mods = {mod: "*" for mod in mod_ids if mod not in mods and mod not in disable_mods}
+    data["mods"].update(dict(sorted(new_mods.items())))
 
-    for mod_id in mod_ids:
-        mods.setdefault(mod_id, "*")
-    data["mods"] = dict(sorted(mods.items()))
+    # add comment
+    comment = data["mods"]
+    if isinstance(comment, CommentedMap) and len(new_mods) != 0:
+        comment.yaml_set_comment_before_after_key(list(new_mods)[0], "\n======NEW MODS======")
+
+    # save
     with open(FILE_PATH, "w", encoding="utf-8") as f:
         yaml.dump(data, f)
 
