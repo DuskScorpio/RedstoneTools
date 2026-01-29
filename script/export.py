@@ -49,9 +49,8 @@ def main():
             logger.info(line.strip())
         process.wait()
 
-        if is_release == "false":
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(original)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(original)
 
 
 if __name__ == "__main__":
