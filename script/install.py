@@ -11,6 +11,7 @@ import tomli_w
 
 
 FILE_PATH = "../mod_list.yml"
+PACKWIZ = "../tools/packwiz"
 
 
 # install mods
@@ -30,18 +31,26 @@ def main():
         path = "../{}".format(mc_ver)
         mc_semver = Version(mc_ver)
         for mod in mods_dict:
+            # skip installed mods to increase running speed
+            if Path("{0}/mods/{1}.pw.toml".format(path, mod)).exists():
+                continue
+
             condition = SimpleSpec(mods_dict[mod])
             if condition.match(mc_semver):
                 install_mod(path, mod, mc_ver)
 
         for disable_mod in disable_mods_dict:
+            # skip installed mods to increase running speed
+            if Path("{0}/mods/{1}.pw.toml".format(path, disable_mod)).exists():
+                continue
+
             condition = SimpleSpec(disable_mods_dict[disable_mod])
             if condition.match(mc_semver):
                 install_mod(path, disable_mod, mc_ver)
                 disable(mc_ver, disable_mod)
 
         # tomil-w changes something, so it needs to be refreshed
-        run(["../tools/packwiz", "refresh"], cwd=path)
+        run([PACKWIZ, "refresh"], cwd=path)
 
 
 def clean_log(mc_ver_list: list[str]):
@@ -51,7 +60,7 @@ def clean_log(mc_ver_list: list[str]):
 
 
 def install_mod(path: str, name: str, mc_ver: str):
-    result = run(["../tools/packwiz", "mr", "add", name, "--yes"], cwd=path, capture_output=True, text=True)
+    result = run([PACKWIZ, "mr", "add", name, "--yes"], cwd=path, capture_output=True, text=True)
     logger.remove()
     logger.add(
         sink=sys.stdout,
@@ -80,7 +89,7 @@ def remove_mod(mc_versions: list[str], mods: list[str]):
         dir_mods = [f.replace(".pw.toml", "") for f in files if re.match(".*\\.pw\\.toml", f)]
         for dir_mod in dir_mods:
             if dir_mod not in mods:
-                run(["../tools/packwiz", "remove", dir_mod], cwd=mc_dir)
+                run([PACKWIZ, "remove", dir_mod], cwd=mc_dir)
 
 
 
