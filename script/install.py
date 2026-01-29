@@ -122,7 +122,7 @@ def disable(mc_version: str, mod_name: str):
     original_name = data["filename"]
     if re.match(".*\\.disabled", original_name):
         return
-    data["filename"] = original_name + ".disable"
+    data["filename"] = original_name + ".disabled"
     with open(path, "wb") as f:
         tomli_w.dump(data, f)
 
