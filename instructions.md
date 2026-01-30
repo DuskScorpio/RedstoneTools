@@ -25,9 +25,10 @@
 ## `mod_list.yml` Example
 ```yaml
 enabled_mods:
-  - mr_slug: lithium
-    cf_slug: lithium
-    version: '>=1.16.4'
+  - mr_slug: lithium # Optional
+    cf_slug: lithium # Optional
+    version: '>=1.16.4' # Optional
+    # Optional
     # name and urls must exist at the same time or not at the same time
     name: lithium
     urls:
