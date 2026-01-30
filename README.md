@@ -86,6 +86,7 @@ Here is a list of all the mods in this pack:
 - [Krypton](https://modrinth.com/mod/krypton) - Optimises the Minecraft networking stack
 - [Lithium](https://modrinth.com/mod/lithium) - Improves server-side performance without affecting vanilla game logic
 - [ModernFix](https://modrinth.com/mod/modernfix) - Improves performance and reduces memory usage
+- [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
 - [More Culling](https://modrinth.com/mod/more-culling) - Changes how multiple types of culling are handled to improve performance
 - [Particle Core](https://modrinth.com/mod/particle-core) - Optimises particle rendering
 - [ScalableLux](https://modrinth.com/mod/scalablelux) - Optimizes lighting engine performance for improved FPS
