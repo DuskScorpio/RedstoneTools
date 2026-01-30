@@ -1,0 +1,16 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "bd7602c12a25e231fdc9861fe9695ed5f5a6ba691f6c425f140af2a33dc1c287"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "de26cd1f8d8e16df0bb8681cae36bc02fba5c4f7f4f854928a6102300cc321b3"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-fabric.pw.toml"
+hash = "a3d9990b12dd33e957cffac8245a63a896c35ec6d0e55a3f21ffdf5057a64781"
+metafile = true

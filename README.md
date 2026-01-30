@@ -10,8 +10,6 @@ This pack includes several disabled mods, which are optional and can be enabled 
 
 - This modpack is based on mods listed at [CommandLeo’s Mod List](https://commandleo.github.io/minecraft-mod-list/)
 
----
-
 ## Mods
 
 Here is a list of all the mods in this pack:
@@ -81,7 +79,6 @@ Here is a list of all the mods in this pack:
 
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations) - Micro optimizations that improve client performance without altering gameplay
 - [Better Block Entities](https://modrinth.com/mod/better-block-entities) - Optimizes block entity rendering for smoother performance and reduced lag on versions ≥1.21.6
-- [DashLoader](https://modrinth.com/mod/dashloader) - Speeds up Minecraft startup by caching and reusing resource loading
 - [Enhanced Block Entities](https://modrinth.com/mod/enhanced-block-entities) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.5
 - [EntityCulling](https://modrinth.com/mod/entityculling) - Hides entities and block entities that are not visible
 - [FerriteCore](https://modrinth.com/mod/ferrite-core) - Memory usage optimizations
@@ -93,6 +90,7 @@ Here is a list of all the mods in this pack:
 - [Particle Core](https://modrinth.com/mod/particle-core) - Optimises particle rendering
 - [ScalableLux](https://modrinth.com/mod/scalablelux) - Optimizes lighting engine performance for improved FPS
 - [Sodium](https://modrinth.com/mod/sodium) - The fastest rendering optimization mod for Minecraft
+- [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium
 - [ThreadTweak](https://modrinth.com/mod/threadtweak) - Improves and tweaks the Minecraft thread scheduling
 
 </details>
@@ -102,20 +100,16 @@ Here is a list of all the mods in this pack:
 
 - [Auth Me](https://modrinth.com/mod/auth-me) - Makes it possible to authenticate yourself and re-validate your session without having to close the game
 - [Better Suggestions](https://modrinth.com/mod/better-suggestions) - Makes command suggestions more useful
-- [ClearDespawn Reworked](https://modrinth.com/mod/cleardespawn-reworked) - Makes items blink when they are about to despawn
+- [ClearDespawn](https://modrinth.com/mod/cleardespawn) - Makes items blink when they are about to despawn
+- [ClearDespawn Reworked](https://modrinth.com/mod/clear-despawn-reworked) - A rework of the ClearDespawn mod for Fabric 1.21.x
+- [DashLoader](https://modrinth.com/mod/dashloader) - Speeds up Minecraft startup by caching and reusing resource loading
+- [malibind](https://modrinth.com/mod/malibind) -
 - [NBT Autocomplete](https://modrinth.com/mod/nbt-autocomplete) - Adds suggestions for NBT tags in commands
+- [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) - Alternative options menu for Sodium
 - [Suggestion Tweaker](https://modrinth.com/mod/suggestion-tweaker) - Improves the way suggestions are filtered and sorted when writing a command
 - [Too Many Shortcuts](https://modrinth.com/mod/too-many-shortcuts) - Improves keys and controls setup by providing modifier keys and enabling multi-functional keys
 - [Vanilla Keybind Manager](https://modrinth.com/mod/vkm) - Manages conflicts between Vanilla and Malilib keybinds
 - [ViaFabricPlus](https://modrinth.com/mod/viafabricplus) - Allows connecting to every Minecraft server version
-
-</details>
-
-<details>
-<summary><strong>Sodium Addons</strong></summary>
-
-- [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) - Alternative options menu for Sodium
-- [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium
 
 </details>
 
@@ -129,21 +123,31 @@ Here is a list of all the mods in this pack:
 - [G4mespeed](https://modrinth.com/mod/g4mespeed) - Utility mod that improves the reliability and experience of changing tick rate, and adds many quality of life features
 - [G4mespeed Capture & Playback](https://modrinth.com/mod/g4mespeed-capture-playback) - Addon for G4mespeed that adds recording and playback capabilities for tick-warped gameplay
 - [InvView](https://modrinth.com/mod/invview) - Allows opening and manipulating the inventories and ender chests of online and offline players
-- [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation of high-resolution isometric screenshots of game objects
+- [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
 - [Mod Menu](https://modrinth.com/mod/modmenu) - Adds a mod menu to view the list of mods you have installed
+- [NBT Copy](https://modrinth.com/mod/nbt-copy) - Adds a button to the chat to easily copy NBT data from the `/data get` command.
 - [Pick Block Pro](https://modrinth.com/mod/pick-block-pro) - Advanced client-side picker for blocks, entities, NBT, tools, and IDs
 - [Redstone Multimeter Fabric](https://modrinth.com/mod/redstone-multimeter) - An intuitive redstone debugging tool
 - [spark](https://modrinth.com/mod/spark) - A performance profiler for Minecraft clients, servers and proxies
 - [Technical Utilities](https://modrinth.com/mod/technical-utilities) - Provides client-side tweaks for Litematica, WorldEdit and other small utilities
+- [WikiRenderer](https://github.com/Pigicial/WikiRenderer) - Allows rendering entities, items, and blocks as high-resolution images for versions >=1.21.11
 
 </details>
 
-## Disabled Mods
+### Disabled Mods
 
 <details>
 <summary><strong>Aesthetics</strong></summary>
 
 - [Iris](https://modrinth.com/mod/iris) - The best shaders mod
+
+</details>
+
+<details>
+<summary><strong>Optimization</strong></summary>
+
+- [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) - Reduces resource usage by lowering the frame rate when the game window is inactive or backgrounded on versions <1.21.2
+- [Voxy](https://modrinth.com/mod/voxy) - Light-weight LoD rendering mod enabling extreme render distances
 
 </details>
 
@@ -154,7 +158,6 @@ Here is a list of all the mods in this pack:
 - [Fabrishot](https://modrinth.com/mod/fabrishot) - Allows taking high-resolution screenshots
 - [FastQuit](https://modrinth.com/mod/fastquit) - Makes it possible to return to the title screen early while a world is still saving in the background
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) - Makes chat unreportable (where possible)
-- [Voxy](https://modrinth.com/mod/voxy) - Light-weight LoD rendering mod enabling extreme render distances
 
 </details>
 
@@ -162,6 +165,7 @@ Here is a list of all the mods in this pack:
 <summary><strong>Utility</strong></summary>
 
 - [Axiom](https://modrinth.com/mod/axiom) - An all-in-one tool for Minecraft editing
+- [Unobtainable Blocks](https://modrinth.com/mod/unobtainable-blocks) - Adds items for unobtainable blocks like fires and portals
 - [WeCuiFix](https://modrinth.com/mod/wecuifix) - Fixes WorldEdit compatibility with WorldEditCUI on versions 1.20.5-1.21.4
 - [WorldEdit](https://modrinth.com/mod/worldedit) - A tool to make building a lot faster
 - [WorldEditCUI](https://modrinth.com/mod/worldeditcui-fabric) - Adds visual outlines for WorldEdit areas
