@@ -1,93 +1,115 @@
-mods:
+enabled_mods:
   # Aesthetics
-  continuity: "*"
+  - mr_slug: continuity
+
   # Carpet
-  carpet: "*"
-  carpet-extra: "*"
-  carpet-tis-addition: "*"
-  doormat: "*"
-  essentialaddons: "*"
-  joacarpet: "*"
-  yaca: "*"
+  - mr_slug: carpet
+  - mr_slug: carpet-extra
+  - mr_slug: carpet-tis-addition
+  - mr_slug: doormat
+  - mr_slug: essentialaddons
+  - mr_slug: joacarpet
+  - mr_slug: yaca
+
   # Fixes
-  packet-fixer: "*"
-  tooltipfix: "*"
+  - mr_slug: packet-fixer
+  - mr_slug: tooltipfix
+
   # Libraries
-  cloth-config: "*"
-  fabric-api: "*"
-  fabric-language-kotlin: "*"
-  fzzy-config: "*"
-  magiclib: "*"
-  malilib: "*"
-  owo-lib: "*"
-  yacl: "*"
+  - mr_slug: cloth-config
+  - mr_slug: fabric-api
+  - mr_slug: fabric-language-kotlin
+  - mr_slug: fzzy-config
+  - mr_slug: magiclib
+  - mr_slug: malilib
+  - mr_slug: owo-lib
+    urls:
+      1.21.11: "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/owo-lib-0.12.24+1.21.11.jar"
+  - mr_slug: yacl
+
   # Masa-like
-  item-scroller: "*"
-  litematica: "*"
-  litematica-server-paster: "*"
-  litemoretica: "*"
-  masa-gadget: "*"
-  masaadditions: "*"
-  minihud: "*"
-  syncmatica: "*"
-  tweakermore: "*"
-  tweakeroo: "*"
+  - mr_slug: item-scroller
+  - mr_slug: litematica
+  - mr_slug: litematica-server-paster
+  - mr_slug: litemoretica
+  - mr_slug: masa-gadget
+  - mr_slug: masaadditions
+  - mr_slug: minihud
+  - mr_slug: syncmatica
+  - mr_slug: tweakermore
+  - mr_slug: tweakeroo
+
   # Optimization
-  badoptimizations: "*"
-  better-block-entities: "*"
-  dashloader: "*"
-  ebe: "*"
-  entityculling: "*"
-  ferrite-core: "*"
-  immediatelyfast: "*"
-  krypton: "*"
-  lithium: "*"
-  modernfix: "*"
-  moreculling: "*"
-  scalablelux: "*"
-  sodium: "*"
-  particle-core: "*"
-  threadtweak: "*"
+  - mr_slug: badoptimizations
+  - mr_slug: better-block-entities
+  - mr_slug: ebe
+  - mr_slug: entityculling
+  - mr_slug: ferrite-core
+  - mr_slug: immediatelyfast
+  - mr_slug: krypton
+  - mr_slug: lithium
+  - mr_slug: modernfix
+  - mr_slug: modernfix-mvus
+  - mr_slug: moreculling
+  - mr_slug: particle-core
+  - mr_slug: scalablelux
+  - mr_slug: sodium
+  - mr_slug: sodium-extra
+  - mr_slug: threadtweak
+
   # QoL
-  auth-me: "*"
-  better-suggestions: "*"
-  clear-despawn-reworked: "*"
-  nbt-autocomplete: "*"
-  suggestion-tweaker: "*"
-  too-many-shortcuts: "*"
-  vkm: "*"
-  viafabricplus: "*"
-  # Sodium Addons
-  reeses-sodium-options: "*"
-  sodium-extra: "*"
+  - mr_slug: auth-me
+  - mr_slug: better-suggestions
+  - mr_slug: cleardespawn
+  - mr_slug: clear-despawn-reworked
+  - mr_slug: dashloader
+  - mr_slug: malibind
+  - mr_slug: nbt-autocomplete
+  - mr_slug: reeses-sodium-options
+  - mr_slug: suggestion-tweaker
+  - mr_slug: too-many-shortcuts
+  - mr_slug: vkm
+  - mr_slug: viafabricplus
+
   # Utility
-  chunk-debug: "*"
-  client-commands: "*"
-  capture-playback: "*"
-  commandkeys: "*"
-  essentialclient: "*"
-  g4mespeed: "*"
-  invview: "*"
-  isometric-renders: "*"
-  modmenu: "*"
-  pick-block-pro: "*"
-  redstone-multimeter: "*"
-  spark: "*"
-  techutils: "*"
+  - mr_slug: chunk-debug
+  - mr_slug: client-commands
+  - mr_slug: capture-playback
+  - mr_slug: commandkeys
+  - mr_slug: essentialclient
+  - mr_slug: g4mespeed
+  - mr_slug: invview
+  - mr_slug: isometric-renders
+  - mr_slug: modmenu
+  - mr_slug: nbt-copy
+  - mr_slug: pick-block-pro
+  - mr_slug: redstone-multimeter
+  - mr_slug: spark
+  - mr_slug: techutils
+  - name: WikiRenderer
+    urls:
+      1.21.11: "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/wikirenderer-2.1+1.21.11.jar"
 
-# ======NEW MODS======
-
-disable_mods:
+disabled_mods:
   # Aesthetics
-  iris: "*"
+  - mr_slug: iris
+
+  # Optimization
+  - mr_slug: dynamic-fps
+    version: "<1.21.2"
+  - mr_slug: voxy
+
   # QoL
-  dcwa: "*"
-  fabrishot: "*"
-  fastquit: "*"
-  no-chat-reports: "*"
-  voxy: "*"
+  - mr_slug: dcwa
+  - mr_slug: fabrishot
+  - mr_slug: fastquit
+  - mr_slug: no-chat-reports
+
   # Utility
-  axiom: "*"
-  wecuifix: "1.20.5 - 1.21.4"
-  worldedit: "*"
-  worldedit-cui: "<1.20.5 || >1.21.4"
+  - mr_slug: axiom
+  - mr_slug: unobtainable-blocks
+  - mr_slug: wecuifix
+    version: "1.20.5 - 1.21.4"
+  - mr_slug: worldedit
+  - mr_slug: worldedit-cui
+    version: "<1.20.5 || >1.21.4"
