@@ -3,8 +3,8 @@ from ruamel.yaml import YAML
 from subprocess import Popen, PIPE
 from semantic_version import Version, NpmSpec
 from loguru import logger
-from script.utils.install_util import Install
-from script.utils.constant import *
+from utils.install_util import Install
+from utils.constant import *
 
 import re
 import sys

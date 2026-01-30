@@ -1,7 +1,7 @@
 from subprocess import Popen, PIPE
 from pathlib import Path
 from loguru import logger
-from script.utils.constant import *
+from utils.constant import *
 
 import re
 import sys

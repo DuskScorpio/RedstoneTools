@@ -1,6 +1,6 @@
 from pathlib import Path
 from ruamel.yaml import YAML
-from script.utils.constant import *
+from utils.constant import *
 
 import re
 
