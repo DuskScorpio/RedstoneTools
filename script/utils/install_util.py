@@ -2,7 +2,7 @@ from pathlib import Path
 from loguru import logger
 from subprocess import Popen, PIPE
 from semantic_version import Version, NpmSpec
-from constant import *
+from .constant import *
 
 import re
 import sys
