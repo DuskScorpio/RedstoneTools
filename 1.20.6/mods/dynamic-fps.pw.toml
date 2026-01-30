@@ -1,0 +1,12 @@
+name = "Dynamic FPS"
+filename = "dynamic-fps-3.11.4+minecraft-1.20.5-fabric.jar.disabled"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LQ3K71Q1/versions/okcmUWSC/dynamic-fps-3.11.4%2Bminecraft-1.20.5-fabric.jar"
+hash-format = "sha512"
+hash = "f6010821a99e191abecf01a771a0deca5c5ac1cdf6ee4c77e4c60e6f602efa6a7aea9fc77bfeba7a271e924368cfbf0db2ee9b9c1d295104bf10f470f4315f56"
+
+[update.modrinth]
+mod-id = "LQ3K71Q1"
+version = "okcmUWSC"
