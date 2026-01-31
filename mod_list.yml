@@ -43,14 +43,18 @@ enabled_mods:
   # Optimization
   - mr_slug: badoptimizations
   - mr_slug: better-block-entities
+    version: ">=1.21.6"
   - mr_slug: ebe
+    version: "<=1.21.4"
   - mr_slug: entityculling
   - mr_slug: ferrite-core
   - mr_slug: immediatelyfast
   - mr_slug: krypton
   - mr_slug: lithium
   - mr_slug: modernfix
+    version: "<=1.21.4"
   - mr_slug: modernfix-mvus
+    version: ">=1.21.5"
   - mr_slug: moreculling
   - mr_slug: particle-core
   - mr_slug: scalablelux
@@ -62,7 +66,9 @@ enabled_mods:
   - mr_slug: auth-me
   - mr_slug: better-suggestions
   - mr_slug: cleardespawn
+    version: "<=1.20.2"
   - mr_slug: clear-despawn-reworked
+    version: ">1.21"
   - mr_slug: dashloader
   - mr_slug: malibind
   - mr_slug: nbt-autocomplete
@@ -90,6 +96,7 @@ enabled_mods:
   - name: WikiRenderer
     urls:
       1.21.11: "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/wikirenderer-2.1+1.21.11.jar"
+    version: ">=1.21.11"
 
 disabled_mods:
   # Aesthetics
@@ -112,5 +119,6 @@ disabled_mods:
   - mr_slug: wecuifix
     version: "1.20.5 - 1.21.4"
   - mr_slug: worldedit
+    cf_slug: worldedit
   - mr_slug: worldedit-cui
-    version: "<1.20.5 || >1.21.4"
+    cf_slug: worldeditcui-fabric

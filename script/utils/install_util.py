@@ -88,8 +88,14 @@ class Install:
 
     def __try_install(self, platform: str, mod_name: str) -> bool:
         set_logger(self.mc_ver, "DEBUG")
+        args = [PACKWIZ, platform, "add", mod_name]
+
+        # we only need the mod for curseforge
+        if platform == "cf":
+            args.extend(["--category", "mc-mods"])
+
         process = Popen(
-            [PACKWIZ, platform, "add", mod_name],
+            args,
             cwd=self.path,
             text=True,
             stdout=PIPE,
