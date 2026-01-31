@@ -68,7 +68,7 @@ enabled_mods:
   - mr_slug: cleardespawn
     version: "<=1.20.2"
   - mr_slug: clear-despawn-reworked
-    version: ">1.21"
+    version: ">=1.21.0"
   - mr_slug: dashloader
   - mr_slug: malibind
   - mr_slug: nbt-autocomplete
