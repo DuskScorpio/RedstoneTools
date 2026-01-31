@@ -18,7 +18,7 @@ def main():
     arg = parser.parse_args()
 
     mc_ver_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
-    print((arg.v is not None) and (arg.v not in mc_ver_list))
+    if (arg.v is not None) and (arg.v not in mc_ver_list): raise ValueError
     is_release = os.getenv("IS_RELEASE", "false")
     run_num = os.getenv("GITHUB_RUN_NUMBER", "1")
     for mc_ver in mc_ver_list:
