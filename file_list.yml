@@ -64,7 +64,6 @@ enabled_files:
   - mr_slug: better-suggestions
   - mr_slug: client-commands
   - mr_slug: commandkeys
-  - mr_slug: dashloader
   - mr_slug: isometric-renders
   - mr_slug: item-scroller
   - mr_slug: malibind
@@ -120,6 +119,7 @@ disabled_files:
     version: "<=1.20.2"
   - mr_slug: clear-despawn-reworked
     version: ">=1.21.0"
+  - mr_slug: dashloader
   - mr_slug: cubes-without-borders
   - mr_slug: dcwa
   - mr_slug: fabrishot
