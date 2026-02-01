@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/jE0SjGuf/versions/S3nEhhsb/carpet-tis-addit
 hash-format = "sha512"
 hash = "6cb38169b3d76cd6388c58d211495e0504516a8313424dcf11beb5cbdd70bb36b96e4affc830ab0537f097f1aac4333cb3c583d39293c3d39cb8af56d642fd60"
 
-[update]
 [update.modrinth]
 mod-id = "jE0SjGuf"
 version = "S3nEhhsb"

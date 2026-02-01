@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/1IjD5062/versions/kHdjiepB/continuity-3.0.0
 hash-format = "sha512"
 hash = "7d86c790aa0b93a39a2849c8437c38e79489df3c249c40527003b4eaf2d30690084c44d96eb36bc924412a9de874b24899fd49cbb584f79c776e477e20539244"
 
-[update]
 [update.modrinth]
 mod-id = "1IjD5062"
 version = "kHdjiepB"

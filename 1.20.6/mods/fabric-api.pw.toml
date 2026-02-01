@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/P7dR8mSH/versions/ocg4hG3t/fabric-api-0.100
 hash-format = "sha512"
 hash = "414f19f903a093c39006e1919a81bea43c3b6728b88e358dc2611ab44b8087e25abc504c66926f245342fa2a245c07462ed62897f15d6c84006b7acf6214ca46"
 
-[update]
 [update.modrinth]
 mod-id = "P7dR8mSH"
 version = "ocg4hG3t"

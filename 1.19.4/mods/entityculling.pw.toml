@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/NNAgCjsB/versions/kMMyJFc8/entityculling-fa
 hash-format = "sha512"
 hash = "a12e14ac413004617e518a7db8f85b7b06ca2497522d049327b0045b8f57dac74d0989ce5f5cf8f1c2acff4b4be5e444f964888587fdf8a440eadba99b2b32f6"
 
-[update]
 [update.modrinth]
 mod-id = "NNAgCjsB"
 version = "kMMyJFc8"

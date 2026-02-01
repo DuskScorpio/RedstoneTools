@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/GcWjdA9I/versions/jYVl3riT/malilib-fabric-1
 hash-format = "sha512"
 hash = "377ff0f3009f17a664a799427d3d7bee2b06e99fca4448467bcf8fe7e160e780d1fca8f5f5ae0c9a78dfa4d4426243190f5eee355373f171887bd7630976aa33"
 
-[update]
 [update.modrinth]
 mod-id = "GcWjdA9I"
 version = "jYVl3riT"

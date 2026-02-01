@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/PtjYWJkn/versions/YknbqkHe/sodium-extra-0.4
 hash-format = "sha512"
 hash = "20a4b8aaae0462a408c3222bf41c14d44cee116e4037d8161f7c17e6329b558765f8c6732e0b97abb0273f4be1fb98685f9fa35b2d6dfb7a138ed7d17dfac331"
 
-[update]
 [update.modrinth]
 mod-id = "PtjYWJkn"
 version = "YknbqkHe"

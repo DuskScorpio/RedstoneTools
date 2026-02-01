@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/GBeCx05I/versions/yQaSN8LN/tweakermore-v3.2
 hash-format = "sha512"
 hash = "a5b63d932ca36499633868de4645725c6b9973b4131f3caa89c2d0dca4ca9b2df0616f4b88a61d60e0a087511b55907a22f10213af75f4f72c422d5cd25118d6"
 
-[update]
 [update.modrinth]
 mod-id = "GBeCx05I"
 version = "yQaSN8LN"

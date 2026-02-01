@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/AANobbMI/versions/OwLQelEI/sodium-fabric-0.
 hash-format = "sha512"
 hash = "c1f1f0ebb779126acde462dfd010ac142ecd1467bbc0efdb97cdf8d2d4f1ebc3d9c9eb22053757f2a98130012bb9467ed0af0737d984717825c5bf3d1cabbe54"
 
-[update]
 [update.modrinth]
 mod-id = "AANobbMI"
 version = "OwLQelEI"

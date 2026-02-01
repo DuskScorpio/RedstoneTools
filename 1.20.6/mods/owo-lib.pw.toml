@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/ccKDOlHs/versions/gizS7nlP/owo-lib-0.12.9%2
 hash-format = "sha512"
 hash = "f44e3e992fb0095fe638a0df9a217bcada9bbd1cfa83db830345afe073b487fa74812e0c1a05efbbef8d85ce5396a13ae366fae8fd7c52ab0d66941cee0f909d"
 
-[update]
 [update.modrinth]
 mod-id = "ccKDOlHs"
 version = "gizS7nlP"

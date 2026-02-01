@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/OVuFYfre/versions/Xdo5ZiRc/enhancedblockent
 hash-format = "sha512"
 hash = "a60cbef0fc67789fafefafaf799107e17b96a2d1cf67f3b8396f8960a64308c9a9d33c822a0d62f6873bf2215c2026c46b78fa2d240c0055148230f13903636d"
 
-[update]
 [update.modrinth]
 mod-id = "OVuFYfre"
 version = "Xdo5ZiRc"

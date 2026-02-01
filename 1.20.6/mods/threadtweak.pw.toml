@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/vSEH1ERy/versions/BtMMYDAh/threadtweak-fabr
 hash-format = "sha512"
 hash = "f422be38129bbaed3fe6994bed88d59bd480618f08e9baa46f0f478846c243ea35ef990793909b900efaec60b673a3937ef13085a72a658e89a4d5407d2544ac"
 
-[update]
 [update.modrinth]
 mod-id = "vSEH1ERy"
 version = "BtMMYDAh"

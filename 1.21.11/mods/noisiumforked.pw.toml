@@ -1,0 +1,12 @@
+name = "NoisiumForked"
+filename = "noisium-fabric-2.8.3+mc1.21.11.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/hasdd01q/versions/VyMvRQKq/noisium-fabric-2.8.3%2Bmc1.21.11.jar"
+hash-format = "sha512"
+hash = "03d4c116204ee8cb4f95b668576c9e8c099ed939c150ff0cf4ff094ae52b0c5f6214c1292c94f25ea7f614254151d1ff2db68ecaddc9f56486189d29fa3a24eb"
+
+[update.modrinth]
+mod-id = "hasdd01q"
+version = "VyMvRQKq"

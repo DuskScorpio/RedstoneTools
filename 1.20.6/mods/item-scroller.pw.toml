@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/JygyCSA4/versions/AqrOKuln/itemscroller-fab
 hash-format = "sha512"
 hash = "892d79ddb69820c400179c64b2bd85c8b50565395c99d0adb69e4071095ad87101aa25dee3d1437c8175f433de4a9e686b3be0a49ba149f90e17c3f8eb15d375"
 
-[update]
 [update.modrinth]
 mod-id = "JygyCSA4"
 version = "AqrOKuln"

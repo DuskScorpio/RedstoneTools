@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/9s6osm5g/versions/g0uTATyM/cloth-config-14.
 hash-format = "sha512"
 hash = "edfd38319ed73a620a11a8d50a93f8ec8b30cd8cd02819f194589a7d6e7b8b3f6619056856f85de25e6de0d7202d4a8ad3e9c1deabbeb643d15d8610124a03b0"
 
-[update]
 [update.modrinth]
 mod-id = "9s6osm5g"
 version = "g0uTATyM"

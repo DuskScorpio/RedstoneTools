@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/Iib8xwCx/versions/28Ha3nmd/yetanothercarpet
 hash-format = "sha512"
 hash = "4cc09c9bd0fb97ceb9b0d83ccf50d37ef338db0b31619c1a4b73de1298f1f753c28b80e1ac1a50873eda0aa55ab089219bb8c948cc52f3e286917aa75589b33e"
 
-[update]
 [update.modrinth]
 mod-id = "Iib8xwCx"
 version = "28Ha3nmd"

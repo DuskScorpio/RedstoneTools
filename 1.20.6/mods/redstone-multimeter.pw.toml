@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/X6YTb3G1/versions/f7RKiLlH/redstone-multime
 hash-format = "sha512"
 hash = "a3eb04e495fd957c7361224d084e0cdcc2cc378e395edf1bcf3dc820ff25c5e5220d395a85f9851c56768fcbc9107a653246d6081891e3b7acdfac152f24ef9e"
 
-[update]
 [update.modrinth]
 mod-id = "X6YTb3G1"
 version = "f7RKiLlH"

@@ -7,7 +7,6 @@ url = "https://cdn.modrinth.com/data/TQTTVgYE/versions/HzPcczDK/fabric-carpet-1.
 hash-format = "sha512"
 hash = "1135807e44b34a628c89674a4df94d617120aea932c24c7d4a375410103884e94713b4252d29035d1722d149cc65465afef24eafbfc476c51bc64b6fffff57e0"
 
-[update]
 [update.modrinth]
 mod-id = "TQTTVgYE"
 version = "HzPcczDK"
