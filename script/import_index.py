@@ -14,7 +14,8 @@ def main():
     files = [f.name for f in index_dir.iterdir() if f.is_file()]
     mod_ids = [f.replace(".pw.toml", "") for f in files if re.match(".*\\.pw\\.toml", f)]
     yaml = YAML()
-    yaml.block_seq_indent = 2
+    yaml.indent(mapping=2, sequence=4, offset=2)
+    yaml.preserve_quotes = True
     with open(FILE_PATH, "r", encoding="utf-8") as f:
         data = dict(yaml.load(f))
 
