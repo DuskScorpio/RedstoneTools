@@ -16,8 +16,8 @@ def main():
     yaml = YAML()
     with open(FILE_PATH, "r", encoding="utf-8") as f:
         data = yaml.load(f)
-    enabled_file_list: list[dict[str, str]] = data["enabled_files"]
-    disabled_file_list: list[dict[str, str]] = data["disabled_files"]
+    enabled_file_list: list[dict[str, str]] = data[ENABLED]
+    disabled_file_list: list[dict[str, str]] = data[ENABLED]
     mc_ver_list = [f.name for f in list(Path("../").glob("*/")) if f.joinpath("pack.toml").exists()]
 
     remove_mod(mc_ver_list, [*enabled_file_list, *disabled_file_list]) # remove mod
@@ -81,7 +81,7 @@ def clean_log(mc_ver_list: list[str]):
 
 def get_meta(name: str, mod_list: list[dict[str, str]]) -> dict[str, str]:
     for mod in mod_list:
-        name_list = [mod.get("mr_slug", ""), mod.get("cf_slug", ""), mod.get("name", "")]
+        name_list = [mod.get(MR, ""), mod.get(CF, ""), mod.get(NAME, "")]
         if name in name_list:
             return mod
 

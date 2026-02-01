@@ -57,7 +57,7 @@ def name_id_dict(mc_ver: str) -> dict[str, str]:
     for file in files:
         with open(path.joinpath(file), "rb") as f:
             data = tomllib.load(f)
-        name = data["name"]
+        name = data[NAME]
         mod_id = file.replace(".pw.toml", "")
         name_and_id[name] = mod_id
 

@@ -23,10 +23,10 @@ def main():
     disabled_mods: list[dict[str, str]] = data.get(DISABLED, []).copy()
     new_mods = []
     for mod_id in sorted(mod_ids):
-        enabled_slugs = [i["mr_slug"] for i in enabled_mods if "mr_slug" in i]
-        disabled_slug = [i["mr_slug"] for i in disabled_mods if "mr_slug" in i]
+        enabled_slugs = [i[MR] for i in enabled_mods if MR in i]
+        disabled_slug = [i[MR] for i in disabled_mods if MR in i]
         if mod_id not in enabled_slugs and mod_id not in disabled_slug:
-            new_mods.append({"mr_slug": mod_id})
+            new_mods.append({MR: mod_id})
     data[ENABLED].extend(new_mods)
 
     if new_mods:
