@@ -30,6 +30,7 @@ def main():
             level="DEBUG",
             colorize=True
         )
+        remove_side(mc_dir)
         copy_file(mc_dir)
         path = "../{}/pack.toml".format(mc_dir)
         with open(path, "r", encoding="utf-8") as f:
@@ -60,6 +61,7 @@ def main():
                 logger.info(line.strip())
             process.wait()
         finally:
+            backup_side(mc_dir)
             with open(path, "w", encoding="utf-8") as f:
                 f.write(original)
             delete_file(mc_dir)
@@ -68,6 +70,31 @@ def main():
                 text = e.strip()
                 logger.info(text)
             process.wait()
+
+
+def remove_side(mc_dir: str):
+    dir_from = "../{}/mods".format(mc_dir)
+    dir_to = "../.cache/mods_{}".format(mc_dir)
+    shutil.copytree(dir_from, dir_to)
+    toml_file_list = [f.name for f in Path(dir_from).iterdir() if f.is_file() and re.match(".*\\.pw\\.toml", f.name)]
+    for toml_file in toml_file_list:
+        with open(Path(dir_from).joinpath(toml_file), "rb") as f:
+            data = tomllib.load(f)
+        if "side" in data:
+            del data["side"]
+            with open(Path(dir_from).joinpath(toml_file), "wb") as f:
+                tomli_w.dump(data, f)
+
+
+def backup_side(mc_dir: str):
+    dir_from = "../.cache/mods_{}".format(mc_dir)
+    dir_to = "../{}/mods".format(mc_dir)
+    shutil.rmtree(dir_to, ignore_errors=True)
+    shutil.copytree(dir_from, dir_to)
+    shutil.rmtree(dir_from, ignore_errors=True)
+    path = Path("../.cache")
+    if len(list(path.iterdir())) == 0:
+        path.rmdir()
 
 
 def copy_file(mc_ver: str):

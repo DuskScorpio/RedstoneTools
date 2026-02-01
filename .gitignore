@@ -1,6 +1,7 @@
 .idea/
 .venv/
 .index/
+.cache/
 logs/
 __pycache__/
 **/*.mrpack
