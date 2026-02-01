@@ -6,15 +6,17 @@
 
 A collection of technical and performance‑oriented mods designed to support Technical Minecraft builds
 
-This pack includes several disabled mods, which are optional and can be enabled by the user if desired.
+This pack includes several disabled mods, which are optional and can be enabled by the user if desired
 
-- This modpack is based on mods listed at [CommandLeo’s Mod List](https://commandleo.github.io/minecraft-mod-list/)
+- This pack is built based on mods listed at [CommandLeo’s Mod List](https://commandleo.github.io/minecraft-mod-list/)
 
 ## Mods
 
-Here is a list of all the mods in this pack:
+This is a list of all the mods in this pack:
 
 ### Enabled Mods
+
+These mods are enabled by default and recommended to the user
 
 <details>
 <summary><strong>Aesthetics</strong></summary>
@@ -129,6 +131,8 @@ Here is a list of all the mods in this pack:
 
 ### Disabled Mods
 
+These mods are disabled by default and can be enabled if desired
+
 <details>
 <summary><strong>Aesthetics</strong></summary>
 
@@ -165,7 +169,7 @@ Here is a list of all the mods in this pack:
 - [FastQuit](https://modrinth.com/mod/fastquit) - Makes it possible to return to the title screen early while a world is still saving in the background
 - [InvView](https://modrinth.com/mod/invview) - Allows opening and manipulating the inventories and ender chests of online and offline players
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) - Makes chat unreportable (where possible)
-- [Respackopts](https://modrinth.com/mod/respackopts) - Adds config menus for resource packs
+- [Respackopts](https://modrinth.com/mod/respackopts) - Adds config menus for resource packs; recommended for Redstone Tweaks users
 - [Sound Controller](https://modrinth.com/mod/sound-controller) - Provides complete control over the volume of every sound in the game
 - [ViaBackwards](https://modrinth.com/mod/viabackwards) - Allows players to connect to newer server versions with an older Minecraft client
 - [ViaFabric](https://modrinth.com/mod/viafabric) - Allows players to connect to older server versions with a newer Minecraft client
@@ -187,3 +191,14 @@ Here is a list of all the mods in this pack:
 ### Notes
 
 <a id="ref-1"></a>[1] [DashLoader](https://modrinth.com/mod/dashloader) and [Enhanced Block Entities](https://modrinth.com/mod/ebe) are not compatible in version 1.19.4
+
+## Resource Packs
+
+This is a list of all the resource packs in this pack:
+
+<details>
+<summary><strong>Resource Packs</strong></summary>
+
+- [Redstone Tweaks](https://modrinth.com/resourcepack/redstone-tweaks) - Vanilla-style resource pack made to improve redstone experience
+
+</details>
