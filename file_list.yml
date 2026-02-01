@@ -25,9 +25,10 @@ enabled_files:
     version: "<=1.21.5"
   - mr_slug: malilib
   - mr_slug: owo-lib
-    name: owo-lib
+    version: "<1.21.11"
+  - name: owo-lib
     urls:
-      1.21.11: "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/owo-lib-0.12.24+1.21.11.jar"
+      1.21.11: "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.1.4%2B1.21.11/owo-lib-0.12.24+1.21.11.jar"
   - mr_slug: yacl
 
   # Masa-like
@@ -97,8 +98,11 @@ enabled_files:
   - mr_slug: techutils
   - name: WikiRenderer
     urls:
-      1.21.11: "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/wikirenderer-2.1+1.21.11.jar"
+      1.21.11: "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.1.4%2B1.21.11/wikirenderer-2.1.4+1.21.11.jar"
     version: ">=1.21.11"
+
+  # Resource Packs
+  - mr_slug: redstone-tweaks
 
 disabled_files:
   # Aesthetics
