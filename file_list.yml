@@ -1,4 +1,4 @@
-enabled_mods:
+enabled_files:
   # Aesthetics
   - mr_slug: continuity
 
@@ -100,7 +100,7 @@ enabled_mods:
       1.21.11: "https://github.com/Pigicial/WikiRenderer/releases/download/2.1%2B1.21.11/wikirenderer-2.1+1.21.11.jar"
     version: ">=1.21.11"
 
-disabled_mods:
+disabled_files:
   # Aesthetics
   - mr_slug: iris
 
