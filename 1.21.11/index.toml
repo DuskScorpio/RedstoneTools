@@ -121,6 +121,11 @@ hash = "809b4169d72d4d004b30d18011e7ebc2037d1ed0d3ba15956d88c2ac914567d5"
 metafile = true
 
 [[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "db1b2a280e596ea170ab575abc74ac9da9afdd9d4f8108e330cdcb034f8e4c55"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "4bf2e24ca4d9783c2a3ef27e3cbf1003f02739058aaae4b3478a17e8a4de7f2c"
 metafile = true
@@ -148,6 +153,11 @@ metafile = true
 [[files]]
 file = "mods/item-scroller.pw.toml"
 hash = "bd0464e85eca4256135312fd924744cdb5cb4a4590468d8f0463ecaa83d824a6"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "c8bac36cc7a80745ef1e43b80b5051f6ef2596c06bdf025676fb03ad62759532"
 metafile = true
 
 [[files]]
@@ -247,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/redstone-multimeter.pw.toml"
-hash = "4e28cdd947e2fffa245a3654700a7ac4d5adb475260d4da1e4326950b3ef3eb4"
+hash = "5fb7a2d1c59c97dfec514dd9f2cbbaafadee248f70f7a011123fab818f8b9b6f"
 metafile = true
 
 [[files]]
@@ -337,7 +347,7 @@ metafile = true
 
 [[files]]
 file = "mods/wikirenderer.pw.toml"
-hash = "4f1aa777033c2c634fe97f7d90561468e75bf5af47123d392939545267d1563b"
+hash = "a2194f0cf7726cdfe45ec4d230bb63ee1ef6f56899b9c4b4e54b9b1539783336"
 metafile = true
 
 [[files]]
@@ -346,13 +356,28 @@ hash = "8aea9229ab3b30b7c066b226de6b38585449467843aeb0cdc6a7f62d1a3dc1db"
 metafile = true
 
 [[files]]
+file = "mods/worldedit-hang-fix.pw.toml"
+hash = "16c5dc2e8dbf22fbe5d8bdb25566b717201d1e9ea4067d9df957912900201c14"
+metafile = true
+
+[[files]]
 file = "mods/worldedit.pw.toml"
 hash = "52e2529d56443d8efab4a753fdb935b0b08d775b9fdebaa42a7c8063d617dbe1"
 metafile = true
 
 [[files]]
+file = "mods/worldthreader.pw.toml"
+hash = "f8c33d7c61f02bdb061612dd83e9ac5cc6e5433ad60be7c51241424d9b89e6bc"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "aaa154ce173239b75189aada35582b87cf2964706f2902d28a8fad305ebaa8cb"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "1671d97b07cdc1752095a9a4a2ea8866ee5adfdedff2e31c4d22205a4bc1745e"
 metafile = true
 
 [[files]]

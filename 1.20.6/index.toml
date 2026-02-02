@@ -141,6 +141,11 @@ hash = "1e2c8cc17038e3f8b1abaf0b0ca2b0b72734349c95b37c86ea4b817d29a783f0"
 metafile = true
 
 [[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "d80049f4f9438f229920965bfbd1354a23165747a1f84e9b39ab8333bce527c5"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "b0cc562d1f8fe15eb372af25f6ecdc729768ff12a86475165e932f9d480c3aaf"
 metafile = true
@@ -173,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/item-scroller.pw.toml"
 hash = "897b2f34d18a1a78c4b474720ee91e9522e4b0a4c221b97ff255a1a640a2d6ac"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "466283d53e43f1ac000d1bf1509c63ccf4319ea941c8b5f1d271f78053f84ee1"
 metafile = true
 
 [[files]]
@@ -282,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/redstone-multimeter.pw.toml"
-hash = "bb78365211f2e3a6986005bac12b6fe9a19c21ff00dd9b8dc0ab9385d336df08"
+hash = "f2996ecccbad793ccc17c67d0632c49f8951272b70d4916916196c371065549b"
 metafile = true
 
 [[files]]
@@ -368,6 +378,11 @@ metafile = true
 [[files]]
 file = "mods/worldedit-cui.pw.toml"
 hash = "f66275b464b4f7b9f08da6a6653f531b261beab9124a3f12e9f00fb93e98709e"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-hang-fix.pw.toml"
+hash = "16c5dc2e8dbf22fbe5d8bdb25566b717201d1e9ea4067d9df957912900201c14"
 metafile = true
 
 [[files]]

@@ -69,8 +69,10 @@ These mods are enabled by default and recommended to the user
 - [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric) - Improves chunk generation, I/O, and loading performance by utilizing multiple CPU cores
 - [Enhanced Block Entities](https://modrinth.com/mod/ebe) [[1]](#ref-1) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.4
 - [EntityCulling](https://modrinth.com/mod/entityculling) - Hides entities and block entities that are not visible
+- [Fast Noise](https://modrinth.com/mod/zfastnoise) - Replaces the vanilla noise generator with a faster implementation to speed up world generation
 - [FerriteCore](https://modrinth.com/mod/ferrite-core) - Memory usage optimizations
 - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) - Speeds up the immediate mode rendering performance of the client
+- [Ixeris](https://modrinth.com/mod/ixeris) - Offloads event polling to a separate thread, freeing CPU for rendering
 - [Krypton](https://modrinth.com/mod/krypton) - Optimises the Minecraft networking stack
 - [Lithium](https://modrinth.com/mod/lithium) - Improves server-side performance without affecting vanilla game logic
 - [ModernFix](https://modrinth.com/mod/modernfix) - Improves performance and reduces memory usage
@@ -83,6 +85,7 @@ These mods are enabled by default and recommended to the user
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium
 - [Starlight](https://modrinth.com/mod/starlight) - Rewrites the lighting engine to significantly improve performance and fix lighting errors
 - [ThreadTweak](https://modrinth.com/mod/threadtweak) - Improves and tweaks the Minecraft thread scheduling
+- [Worldthreader](https://modrinth.com/mod/worldthreader) - Allows multi-threaded processing of multiple dimensions simultaneously to improve performance
 
 </details>
 
@@ -95,7 +98,8 @@ These mods are enabled by default and recommended to the user
 - [CommandKeys](https://modrinth.com/mod/command-keys) - A powerful command macro mod
 - [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
 - [Item Scroller](https://modrinth.com/mod/item-scroller) - Adds many shortcuts to move items more easily and craft faster in inventory screens
-- [malibind](https://modrinth.com/mod/malibind) -
+- [kennytv's epic force close loading screen](https://modrinth.com/mod/forcecloseworldloadingscreen) - Disables world loading/reconfiguration screens and removes forced fades for faster resource pack loading
+- [MaLiBind](https://modrinth.com/mod/malibind) -
 - [MiniHUD](https://modrinth.com/mod/minihud) - A "mini F3" HUD mod, also with various overlays like light level, spawn chunks, slime chunks etc.
 - [Mod Menu](https://modrinth.com/mod/modmenu) - Adds a mod menu to view the list of mods you have installed
 - [NBT Autocomplete](https://modrinth.com/mod/nbt-autocomplete) - Adds suggestions for NBT tags in commands
@@ -120,7 +124,6 @@ These mods are enabled by default and recommended to the user
 - [Masa Gadget](https://modrinth.com/mod/masa-gadget) - Additional features for Masa's mods
 - [MasaAdditions](https://modrinth.com/mod/masaadditions) - Addon mod for Tweakeroo, MiniHUD and Litematica
 - [NBT Copy](https://modrinth.com/mod/nbt-copy) - Adds a button to the chat to easily copy NBT data from the `/data get` command.
-- [Redstone Multimeter Fabric](https://modrinth.com/mod/redstone-multimeter) - An intuitive redstone debugging tool
 - [spark](https://modrinth.com/mod/spark) - A performance profiler for Minecraft clients, servers and proxies
 - [Syncmatica](https://modrinth.com/mod/syncmatica) - Enables sharing litematic placements with other players
 - [Technical Utilities](https://modrinth.com/mod/technical-utilities) - Provides client-side tweaks for Litematica, WorldEdit and other small utilities
@@ -137,6 +140,13 @@ These mods are disabled by default and can be enabled if desired
 <summary><strong>Aesthetics</strong></summary>
 
 - [Iris](https://modrinth.com/mod/iris) - The best shaders mod
+
+</details>
+<details>
+<summary><strong>Fixes</strong></summary>
+
+- [WeCuiFix](https://modrinth.com/mod/wecuifix) - Fixes WorldEdit compatibility with WorldEditCUI on versions 1.20.5-1.21.4
+- [WorldEdit Hang Fix](https://modrinth.com/mod/worldedit-hang-fix) - Prevents the client from freezing when performing large operations with WorldEdit
 
 </details>
 
@@ -181,8 +191,8 @@ These mods are disabled by default and can be enabled if desired
 
 - [Axiom](https://modrinth.com/mod/axiom) - An all-in-one tool for Minecraft editing
 - [G4mespeed Capture & Playback](https://modrinth.com/mod/g4mespeed-capture-playback) - Addon for G4mespeed that adds recording and playback capabilities for tick-warped gameplay
+- [Redstone Multimeter Fabric](https://modrinth.com/mod/redstone-multimeter) - An intuitive redstone debugging tool
 - [Unobtainable Blocks](https://modrinth.com/mod/unobtainable-blocks) - Adds items for unobtainable blocks like fires and portals
-- [WeCuiFix](https://modrinth.com/mod/wecuifix) - Fixes WorldEdit compatibility with WorldEditCUI on versions 1.20.5-1.21.4
 - [WorldEdit](https://modrinth.com/mod/worldedit) - A tool to make building a lot faster
 - [WorldEditCUI](https://modrinth.com/mod/worldeditcui-fabric) - Adds visual outlines for WorldEdit areas
 
