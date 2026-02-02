@@ -12,8 +12,12 @@
 
 - Disabled mods:
   - Redstone Multimeter
+- Removed mods:
+  - NoisiumForked
 
 ## Updates
 
 - WikiRenderer
 - owo-lib
+- Tweakermore
+- Technical Utilities

@@ -1,8 +1,13 @@
-name = "owo-lib"
-filename = "owo-lib-0.12.24+1.21.11.jar"
+name = "oωo (owo-lib)"
+filename = "owo-lib-0.13.0+1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.1.4%2B1.21.11/owo-lib-0.12.24+1.21.11.jar"
-hash-format = "sha256"
-hash = "48585bb5b80e39040480051bb9ff08a5733122ae37b97bd9028f8cad7e957ca3"
+url = "https://cdn.modrinth.com/data/ccKDOlHs/versions/33Ei8Thm/owo-lib-0.13.0%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "acdd14f068a1751ec9e9baa4c6febc1a807a522ada80c2d999abf07e4a5693892fc92497f13043fbb7fc6e04c1eb42fb59a364a6ef813302f60833355a489c2e"
+
+[update]
+[update.modrinth]
+mod-id = "ccKDOlHs"
+version = "33Ei8Thm"

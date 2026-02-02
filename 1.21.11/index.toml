@@ -231,13 +231,8 @@ hash = "31188934bcb30e1c88efe708b3ffdb7b9ae34595815c909fceb244fbab31cb88"
 metafile = true
 
 [[files]]
-file = "mods/noisiumforked.pw.toml"
-hash = "096dc6a2ca0d50b0958d0baa035e7c22f9e2cbe5dbeb7e14c108c4073d79de11"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "9e0266e282a6b5f52ea5208ba88cdf8ac71ac0d13b23f4f92b6e8ec15c1ecc16"
+hash = "01cce2adecdc5e33fba69ff99c5a87f847733a0238f8e94ad2c9841cb26ec2ba"
 metafile = true
 
 [[files]]
@@ -307,12 +302,12 @@ metafile = true
 
 [[files]]
 file = "mods/techutils.pw.toml"
-hash = "8c8419f94ff2ac7d44cf2ebc2dbf05558eb6b3268d99ce09ef32b3fcc32fa417"
+hash = "b6b3a6e72a9e7523ff09c49ea7e18f92879108214d6c2f6baaaa1135ca29930e"
 metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "4bff6a40380cbe11c5a5ffb02b7eb69d528dc404d62d969023ba67684f99ef2c"
+hash = "1b7f1613ef6a3bb72c74fa4d5bcbc7c6b9bbf95ccc33b9465d4f31b02227b69b"
 metafile = true
 
 [[files]]
