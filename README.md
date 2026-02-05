@@ -40,8 +40,8 @@ These mods are enabled by default and recommended to the user
 <summary><strong>Fixes</strong></summary>
 
 - [Model Gap Fix](https://modrinth.com/mod/modelfix) - Fixes gaps in block models and item models
-- [PacketFixer](https://modrinth.com/mod/packetfixer) - Fixes various problems with packets, nbt, and timeouts
-- [ToolTip Fix](https://modrinth.com/mod/tooltip-fix) - Stops tooltips that are too large to fit on the screen from running off the screen
+- [PacketFixer](https://modrinth.com/mod/packet-fixer) - Fixes various problems with packets, nbt, and timeouts
+- [ToolTip Fix](https://modrinth.com/mod/tooltipfix) - Stops tooltips that are too large to fit on the screen from running off the screen
 
 </details>
 
@@ -54,7 +54,7 @@ These mods are enabled by default and recommended to the user
 - [Fzzy Config](https://modrinth.com/mod/fzzy-config) - Configuration library required by Particle Core
 - [MagicLib](https://modrinth.com/mod/magiclib) - Library required by MasaGadget
 - [MaLiLib](https://modrinth.com/mod/malilib) - Library required by Masa's mods
-- [oωo](https://modrinth.com/mod/oao) - Library required by Isometric Renders and WikiRenderer
+- [oωo](https://modrinth.com/mod/owo-lib) - Library required by Isometric Renders and WikiRenderer
 - [YetAnotherConfigLib](https://modrinth.com/mod/yacl) - Configuration library required by multiple mods
 
 </details>
@@ -75,7 +75,7 @@ These mods are enabled by default and recommended to the user
 - [Lithium](https://modrinth.com/mod/lithium) - Improves server-side performance without affecting vanilla game logic
 - [ModernFix](https://modrinth.com/mod/modernfix) [[2]](#ref-2) - Improves performance and reduces memory usage
 - [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
-- [More Culling](https://modrinth.com/mod/more-culling) - Changes how multiple types of culling are handled to improve performance
+- [More Culling](https://modrinth.com/mod/moreculling) - Changes how multiple types of culling are handled to improve performance
 - [Noisium](https://modrinth.com/mod/noisium) - Optimises worldgen performance for a better gameplay experience
 - [Particle Core](https://modrinth.com/mod/particle-core) - Optimises particle rendering
 - [Sodium](https://modrinth.com/mod/sodium) - The fastest rendering optimization mod for Minecraft
@@ -91,7 +91,7 @@ These mods are enabled by default and recommended to the user
 - [Auth Me](https://modrinth.com/mod/auth-me) - Makes it possible to authenticate yourself and re-validate your session without having to close the game
 - [Better Suggestions](https://modrinth.com/mod/better-suggestions) - Makes command suggestions more useful
 - [Client Commands](https://modrinth.com/mod/client-commands) - Adds lots of useful client-side commands
-- [CommandKeys](https://modrinth.com/mod/command-keys) - A powerful command macro mod
+- [CommandKeys](https://modrinth.com/mod/commandkeys) - A powerful command macro mod
 - [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk) - Keeps chunks in memory longer after they are out of render distance
 - [Hold That Chunk V2](https://modrinth.com/mod/hold-that-chunk-v2) - A re-implementation of Hold That Chunk for versions >=1.21 that keeps rendered chunks in memory longer
 - [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
@@ -113,7 +113,7 @@ These mods are enabled by default and recommended to the user
 <details>
 <summary><strong>Technical</strong></summary>
 
-- [ChunkDebug](https://modrinth.com/mod/chunkdebug) - Adds a map with information about the currently loaded chunks
+- [ChunkDebug](https://modrinth.com/mod/chunk-debug) - Adds a map with information about the currently loaded chunks
 - [EssentialClient](https://modrinth.com/mod/essential) - Adds many utilities and provides a GUI to modify carpet rules
 - [G4mespeed](https://modrinth.com/mod/g4mespeed) - Utility mod that improves the reliability and experience of changing tick rate, and adds many quality of life features
 - [Litematica](https://modrinth.com/mod/litematica) - A client-side schematic mod with extra features for creative mode work
@@ -200,11 +200,11 @@ These mods are disabled by default and can be enabled if desired
 <summary><strong>Technical</strong></summary>
 
 - [Axiom](https://modrinth.com/mod/axiom) - An all-in-one tool for Minecraft editing
-- [G4mespeed Capture & Playback](https://modrinth.com/mod/g4mespeed-capture-playback) - Addon for G4mespeed that adds recording and playback capabilities for tick-warped gameplay
+- [G4mespeed Capture & Playback](https://modrinth.com/mod/capture-playback) - Addon for G4mespeed that adds recording and playback capabilities for tick-warped gameplay
 - [Redstone Multimeter Fabric](https://modrinth.com/mod/redstone-multimeter) - An intuitive redstone debugging tool
 - [Unobtainable Blocks](https://modrinth.com/mod/unobtainable-blocks) - Adds items for unobtainable blocks like fires and portals
 - [WorldEdit](https://modrinth.com/mod/worldedit) - A tool to make building a lot faster
-- [WorldEditCUI](https://modrinth.com/mod/worldeditcui-fabric) - Adds visual outlines for WorldEdit areas
+- [WorldEditCUI](https://modrinth.com/mod/worldedit-cui) - Adds visual outlines for WorldEdit areas
 
 </details>
 
@@ -223,3 +223,4 @@ This is a list of all the resource packs in this pack:
 - [Redstone Tweaks](https://modrinth.com/resourcepack/redstone-tweaks) - Vanilla-style resource pack made to improve redstone experience
 
 </details>
+
