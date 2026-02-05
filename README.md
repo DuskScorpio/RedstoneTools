@@ -96,7 +96,6 @@ These mods are enabled by default and recommended to the user
 - [Hold That Chunk V2](https://modrinth.com/mod/hold-that-chunk-v2) - A re-implementation of Hold That Chunk for versions >=1.21 that keeps rendered chunks in memory longer
 - [Isometric Renders](https://modrinth.com/mod/isometric-renders) - Allows the creation high-resolution isometric images of items, blocks, and entities
 - [Item Scroller](https://modrinth.com/mod/item-scroller) - Adds many shortcuts to move items more easily and craft faster in inventory screens
-- [kennytv's epic force close loading screen](https://modrinth.com/mod/forcecloseworldloadingscreen) - Disables world loading/reconfiguration screens and removes forced fades for faster resource pack loading
 - [MaLiBind](https://modrinth.com/mod/malibind) -
 - [MiniHUD](https://modrinth.com/mod/minihud) - A "mini F3" HUD mod, also with various overlays like light level, spawn chunks, slime chunks etc.
 - [Mod Menu](https://modrinth.com/mod/modmenu) - Adds a mod menu to view the list of mods you have installed
@@ -187,6 +186,7 @@ These mods are disabled by default and can be enabled if desired
 - [Fabrishot](https://modrinth.com/mod/fabrishot) - Allows taking high-resolution screenshots
 - [FastQuit](https://modrinth.com/mod/fastquit) - Makes it possible to return to the title screen early while a world is still saving in the background
 - [InvView](https://modrinth.com/mod/invview) - Allows opening and manipulating the inventories and ender chests of online and offline players
+- [kennytv's epic force close loading screen](https://modrinth.com/mod/forcecloseworldloadingscreen) - Disables world loading/reconfiguration screens and removes forced fades for faster resource pack loading
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports) - Makes chat unreportable (where possible)
 - [Respackopts](https://modrinth.com/mod/respackopts) - Adds config menus for resource packs; recommended for Redstone Tweaks users
 - [Sound Controller](https://modrinth.com/mod/sound-controller) - Provides complete control over the volume of every sound in the game

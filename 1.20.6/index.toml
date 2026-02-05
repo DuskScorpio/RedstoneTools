@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
-hash = "d80049f4f9438f229920965bfbd1354a23165747a1f84e9b39ab8333bce527c5"
+hash = "c6b04e4e163c34bab2da959d5b673b31568cf5c1fcf391158331da1799657855"
 metafile = true
 
 [[files]]

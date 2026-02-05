@@ -1,5 +1,9 @@
 ## News
 
+- Added new versions:
+  - 1.16.5
+  - 1.17.1
+  - 1.18.2
 - Added new enabled mods:
   - SubTick
   - Hold That Chunk
@@ -13,6 +17,7 @@
   - Carpet extra
   - Doormat
   - Essential addons
+  - kennytv's epic force close loading screen
   - Worldthreader
 
 ## Updates

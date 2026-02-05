@@ -66,7 +66,6 @@ enabled_files:
   - mr_slug: isometric-renders
     version: "<=1.21.4"
   - mr_slug: item-scroller
-  - mr_slug: forcecloseworldloadingscreen
   - mr_slug: malibind
   - mr_slug: minihud
   - mr_slug: modmenu
@@ -138,6 +137,7 @@ disabled_files:
   - mr_slug: fabrishot
   - mr_slug: fastquit
   - mr_slug: invview
+  - mr_slug: forcecloseworldloadingscreen
   - mr_slug: no-chat-reports
     version: ">=1.19.0"
   - mr_slug: respackopts
