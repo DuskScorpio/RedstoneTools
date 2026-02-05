@@ -51,14 +51,14 @@ class Install:
             name_list.append(mod_name)
 
         if URLS in self.mod_meta:
-            mod_name = self.mod_meta.get(NAME)
-            if self.__is_installed(mod_name):
-                return mod_name
+            mod_name: str = self.mod_meta.get(NAME)
+            if self.__is_installed(mod_name.lower()):
+                return mod_name.lower()
             urls: dict = self.mod_meta.get(URLS)
             if self.mc_ver in urls:
                 self.__url_install(mod_name, urls[self.mc_ver])
-                return mod_name
-            name_list.append(mod_name)
+                return mod_name.lower()
+            name_list.append(mod_name.lower())
 
         mod_name = name_list[0]
         set_write_logger(self.mc_ver, "DEBUG", "WARNING")
