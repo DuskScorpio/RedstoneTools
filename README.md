@@ -211,7 +211,7 @@ These mods are disabled by default and can be enabled if desired
 ### Notes
 
 <a id="ref-1"></a>[[1]](#ref-1) [DashLoader](https://modrinth.com/mod/dashloader) and [Enhanced Block Entities](https://modrinth.com/mod/ebe) are not compatible in versions 1.16.5 and 1.19.4  
-<a id="ref-2"></a>[[2]](#ref-2) [DashLoader](https://modrinth.com/mod/dashloader) and [ModernFix](https://modrinth.com/mod/modernfix) are not compatible in versions 1.16.5 and 1.18.2  
+<a id="ref-2"></a>[[2]](#ref-2) [DashLoader](https://modrinth.com/mod/dashloader) and [ModernFix](https://modrinth.com/mod/modernfix) are not compatible in versions 1.16.5 - 1.18.2  
 <a id="ref-3"></a>[[3]](#ref-3) [Essential Addons](https://modrinth.com/mod/essentialaddons) and not compatible with [ChunkDebug](https://modrinth.com/mod/chunk-debug) and [EssentialClient](https://modrinth.com/mod/essential) in version 1.16.5
 
 ## Resource Packs
