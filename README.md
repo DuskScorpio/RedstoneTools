@@ -73,7 +73,7 @@ These mods are enabled by default and recommended to the user
 - [Ixeris](https://modrinth.com/mod/ixeris) - Offloads event polling to a separate thread, freeing CPU for rendering
 - [Krypton](https://modrinth.com/mod/krypton) - Optimises the Minecraft networking stack
 - [Lithium](https://modrinth.com/mod/lithium) - Improves server-side performance without affecting vanilla game logic
-- [ModernFix](https://modrinth.com/mod/modernfix) - Improves performance and reduces memory usage
+- [ModernFix](https://modrinth.com/mod/modernfix) [[2]](#ref-2) - Improves performance and reduces memory usage
 - [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
 - [More Culling](https://modrinth.com/mod/more-culling) - Changes how multiple types of culling are handled to improve performance
 - [Noisium](https://modrinth.com/mod/noisium) - Optimises worldgen performance for a better gameplay experience
@@ -182,7 +182,7 @@ These mods are disabled by default and can be enabled if desired
 - [ClearDespawn](https://modrinth.com/mod/cleardespawn) - Makes items blink when they are about to despawn
 - [ClearDespawn Reworked](https://modrinth.com/mod/clear-despawn-reworked) - A rework of the ClearDespawn mod for Fabric 1.21.x
 - [Cubes Without Borders](https://modrinth.com/mod/cubes-without-borders) - Allows playing Minecraft in a borderless fullscreen window
-- [DashLoader](https://modrinth.com/mod/dashloader) [[1]](#ref-1) - Speeds up Minecraft startup by caching and reusing resource loading
+- [DashLoader](https://modrinth.com/mod/dashloader) [[1]](#ref-1) [[2]](#ref-2) - Speeds up Minecraft startup by caching and reusing resource loading
 - [Disable Custom Worlds Advice](https://modrinth.com/mod/dcwa) - Disables the annoying "Experimental Features" advice
 - [Fabrishot](https://modrinth.com/mod/fabrishot) - Allows taking high-resolution screenshots
 - [FastQuit](https://modrinth.com/mod/fastquit) - Makes it possible to return to the title screen early while a world is still saving in the background
@@ -211,6 +211,7 @@ These mods are disabled by default and can be enabled if desired
 ### Notes
 
 <a id="ref-1"></a>[1] [DashLoader](https://modrinth.com/mod/dashloader) and [Enhanced Block Entities](https://modrinth.com/mod/ebe) are not compatible in version 1.19.4
+<a id="ref-2"></a>[2] [DashLoader](https://modrinth.com/mod/dashloader) and [ModernFix](https://modrinth.com/mod/modernfix) are not compatible in version 1.18.2
 
 ## Resource Packs
 

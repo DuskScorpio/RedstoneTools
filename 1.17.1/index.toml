@@ -161,11 +161,6 @@ hash = "01f54d293d1008f22f8cfc9a43b4c8e5473d882c2ed7ca667cbcf55ae4d638bc"
 metafile = true
 
 [[files]]
-file = "mods/libjf.pw.toml"
-hash = "98aca0daf215b9b6dbf3c53af6f431b37b37d6b610d438012199cd944e890baf"
-metafile = true
-
-[[files]]
 file = "mods/litematica-server-paster.pw.toml"
 hash = "68caf9f0630b07952421389dec3f4cb148f5422be804ef124dd9d050aabd6cac"
 metafile = true
@@ -238,11 +233,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "d347c75e741807b9b87b2df676149bc56efcf4338b4edaefc3509ade046884c9"
-metafile = true
-
-[[files]]
-file = "mods/respackopts.pw.toml"
-hash = "5fbfb611704f250760e05c08279748b1fa6a88ff61db9ab5672d5e101ff7ae04"
 metafile = true
 
 [[files]]

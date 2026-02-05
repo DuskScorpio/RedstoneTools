@@ -116,6 +116,7 @@ disabled_files:
 
   # Libraries
   - mr_slug: libjf
+    version: ">1.18.2"
 
   # Performance
   - mr_slug: dynamic-fps
@@ -139,6 +140,7 @@ disabled_files:
   - mr_slug: invview
   - mr_slug: no-chat-reports
   - mr_slug: respackopts
+    version: ">1.17.1" # Does not work on 1.17.1
   - mr_slug: sound-controller
   - mr_slug: viabackwards
   - mr_slug: viafabric
