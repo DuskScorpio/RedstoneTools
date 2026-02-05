@@ -82,7 +82,6 @@ These mods are enabled by default and recommended to the user
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra) - Ports most of Optifine's options over to Sodium
 - [Starlight](https://modrinth.com/mod/starlight) - Rewrites the lighting engine to significantly improve performance and fix lighting errors
 - [ThreadTweak](https://modrinth.com/mod/threadtweak) - Improves and tweaks the Minecraft thread scheduling
-- [Worldthreader](https://modrinth.com/mod/worldthreader) - Allows multi-threaded processing of multiple dimensions simultaneously to improve performance
 
 </details>
 
@@ -172,6 +171,7 @@ These mods are disabled by default and can be enabled if desired
 - [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) - Reduces resource usage by lowering the frame rate when the game window is inactive or backgrounded on versions <1.21.2
 - [ScalableLux](https://modrinth.com/mod/scalablelux) - Optimizes lighting engine performance for improved FPS
 - [Voxy](https://modrinth.com/mod/voxy) - Light-weight LoD rendering mod enabling extreme render distances
+- [Worldthreader](https://modrinth.com/mod/worldthreader) - Allows multi-threaded processing of multiple dimensions simultaneously to improve performance
 
 </details>
 

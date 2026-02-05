@@ -13,6 +13,7 @@
   - Carpet extra
   - Doormat
   - Essential addons
+  - Worldthreader
 
 ## Updates
 
