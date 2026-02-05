@@ -1,12 +1,13 @@
 name = "Worldthreader"
-filename = "Worldthreader-2.7.0.jar.disabled"
+filename = "Worldthreader-2.7.1.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/LwH5rYyd/versions/Y0BSVnzl/Worldthreader-2.7.0.jar"
+url = "https://cdn.modrinth.com/data/LwH5rYyd/versions/Np7eCQvl/Worldthreader-2.7.1.jar"
 hash-format = "sha512"
-hash = "9285be71343b3b0050d1776f4b8a557968d414dde367cdc06b829eea241e9e863eb64cbced681d4d094d7d08153f4cbaa90a74987be24d1e33a4147ca25a47ae"
+hash = "1bc0474e0be0b6dc11eb0bfe6fdd9ec43f2967bc5781edf3a0d282ff622160835ce6d8abe72b6331921e76020b66d25f472c8d55f3f26ddbfce525156db61ac1"
 
+[update]
 [update.modrinth]
 mod-id = "LwH5rYyd"
-version = "Y0BSVnzl"
+version = "Np7eCQvl"

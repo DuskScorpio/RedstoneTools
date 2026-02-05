@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "4bc6473e188a4c14d5622af2b04cb021b6db7a8cb5f089c7daf0d114a5ee7f5e"
+hash = "45abf05e1cc90006aeb65e4e1bbe97da5a1984f547ea8028a077dae68af0ac11"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "4bf2e24ca4d9783c2a3ef27e3cbf1003f02739058aaae4b3478a17e8a4de7f2c"
+hash = "c5103bd5c497d707072363d1bb994697a62774b8bc79ad5a8c3b33313f824948"
 metafile = true
 
 [[files]]
@@ -372,7 +372,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldthreader.pw.toml"
-hash = "02a634b62f22206b50924c9098593950d3949724b6f5863e79eddc89e4a1e4a3"
+hash = "b22161eb58ba5a80c7ceb8fb95eda938811362713c5b43d42541d2cd785e926c"
 metafile = true
 
 [[files]]

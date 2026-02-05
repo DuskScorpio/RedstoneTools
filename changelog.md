@@ -17,4 +17,9 @@
 
 ## Updates
 
--
+- 1.20.6
+  - Litematica
+- 1.21.11
+  - Fabric API
+  - Fzzy Config
+  - Worldthreader
