@@ -34,7 +34,6 @@ enabled_files:
   - mr_slug: badoptimizations
   - mr_slug: better-block-entities
     version: ">=1.21.6"
-  - mr_slug: c2me-fabric
   - mr_slug: ebe
     version: "<=1.21.4"
   - mr_slug: entityculling
@@ -121,6 +120,7 @@ disabled_files:
     version: ">1.18.2"
 
   # Performance
+  - mr_slug: c2me-fabric
   - mr_slug: dynamic-fps
     version: "<1.21.2"
   - mr_slug: scalablelux

@@ -1,5 +1,5 @@
 name = "Concurrent Chunk Management Engine (Fabric)"
-filename = "c2me-fabric-mc1.19.4-0.2.0+alpha.10.66.jar"
+filename = "c2me-fabric-mc1.19.4-0.2.0+alpha.10.66.jar.disabled"
 side = "both"
 
 [download]

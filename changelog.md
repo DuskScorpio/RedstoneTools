@@ -10,7 +10,7 @@
 ## Changes
 
 - Disabled mods:
-  -
+  - C2ME
 
 ## Updates
 

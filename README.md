@@ -64,7 +64,6 @@ These mods are enabled by default and recommended to the user
 
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations) - Micro optimizations that improve client performance without altering gameplay
 - [Better Block Entities](https://modrinth.com/mod/better-block-entities) - Optimizes block entity rendering for smoother performance and reduced lag on versions ≥1.21.6
-- [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric) - Improves chunk generation, I/O, and loading performance by utilizing multiple CPU cores
 - [Enhanced Block Entities](https://modrinth.com/mod/ebe) [[1]](#ref-1) - Reduces block entity FPS lag and improves their visuals on versions ≤1.21.4
 - [EntityCulling](https://modrinth.com/mod/entityculling) - Hides entities and block entities that are not visible
 - [Fast Noise](https://modrinth.com/mod/zfastnoise) - Replaces the vanilla noise generator with a faster implementation to speed up world generation
@@ -167,6 +166,7 @@ These mods are disabled by default and can be enabled if desired
 <details>
 <summary><strong>Performance</strong></summary>
 
+- [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric) - Improves chunk generation, I/O, and loading performance by utilizing multiple CPU cores
 - [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) - Reduces resource usage by lowering the frame rate when the game window is inactive or backgrounded on versions <1.21.2
 - [ScalableLux](https://modrinth.com/mod/scalablelux) - Optimizes lighting engine performance for improved FPS
 - [Voxy](https://modrinth.com/mod/voxy) - Light-weight LoD rendering mod enabling extreme render distances
