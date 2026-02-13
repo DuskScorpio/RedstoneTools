@@ -9,6 +9,7 @@
 
 ## Changes
 
+- Renamed to RedstoneToolkit
 - Disabled mods:
   - C2ME
 
