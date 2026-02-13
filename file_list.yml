@@ -79,7 +79,7 @@ enabled_files:
   - mr_slug: vkm
   - name: WikiRenderer
     urls:
-      1.21.11: "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.1.6%2B1.21.11/wikirenderer-2.1.6+1.21.11.jar"
+      1.21.11: "https://github.com/skyblock-wiki/WikiRenderer/releases/download/2.2.1-1.21.11/wikirenderer-2.2.1+1.21.11.jar"
     version: ">=1.21.11"
 
   # Technical
